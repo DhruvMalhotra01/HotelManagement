@@ -6,7 +6,6 @@ const session = require('express-session');
 exports.getLogin = (req, res) => {
   res.render('login');
 };
-
 exports.getSignup = (req, res) => {
   res.render('signup', { error: null }); 
 };
