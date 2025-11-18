@@ -13,6 +13,6 @@ const bookingSchema = new mongoose.Schema({
   hotelId: mongoose.Schema.Types.ObjectId,
   itemId: mongoose.Schema.Types.ObjectId,
   totalAmount: Number
-});
+      });
 
 module.exports = mongoose.model('Booking', bookingSchema);
