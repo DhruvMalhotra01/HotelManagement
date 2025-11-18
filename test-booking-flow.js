@@ -19,7 +19,7 @@ function testUrl(url, description) {
         }).on('error', (e) => {
             console.error(`${colors.red}[TEST] ${description} failed:${colors.reset}`, e.message);
             reject(e);
-        });
+           });
     });
 }
 
